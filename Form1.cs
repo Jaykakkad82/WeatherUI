@@ -10,7 +10,7 @@ namespace WeatherUI
         {
             InitializeComponent();
         }
-        string API_KEY = "c36d05f5c47ccf9fd8367b66bec8e1e0";
+        string API_KEY = "";
         private void btn_search_Click(object sender, EventArgs e)
         {
             getWeatherData();
@@ -31,7 +31,7 @@ namespace WeatherUI
                 labSunriseOut.Text = ConvertDateTime(Info.sys.sunrise).ToString();
                 labWindSpeed.Text = Info.wind.speed.ToString();
                 labPressureSpeed.Text = Info.main.pressure.ToString();
-                labTemp.Text = Info.main.temp.ToString()+"°C";
+                labTemp.Text = Info.main.temp.ToString()+"Â°C";
 
 
             }
