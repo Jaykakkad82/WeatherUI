@@ -10,7 +10,7 @@ namespace WeatherUI
         {
             InitializeComponent();
         }
-        string API_KEY = "c36d05f5c47ccf9fd8367b66bec8e1e0";
+        string API_KEY = "";
         private void btn_search_Click(object sender, EventArgs e)
         {
             getWeatherData();
