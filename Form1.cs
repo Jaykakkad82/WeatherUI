@@ -31,7 +31,7 @@ namespace WeatherUI
                 labSunriseOut.Text = ConvertDateTime(Info.sys.sunrise).ToString();
                 labWindSpeed.Text = Info.wind.speed.ToString();
                 labPressureSpeed.Text = Info.main.pressure.ToString();
-                labTemp.Text = Info.main.temp.ToString()+"°C";
+                labTemp.Text = Info.main.temp.ToString()+"Â°C";
 
 
             }
